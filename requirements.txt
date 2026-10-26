@@ -1,0 +1,15 @@
+# Core pipeline + dashboard
+pandas>=2.0
+pyarrow>=14.0
+scikit-learn>=1.5,<2.0
+joblib>=1.4
+numpy>=1.26
+plotly>=5.20
+dash>=2.17
+
+# NoSQL storage (MongoDB Atlas; mongomock only for the offline self-test)
+pymongo>=4.6
+mongomock>=4.1
+
+# Big-data model cross-check (needs Java 17+ on PATH)
+pyspark>=3.5
