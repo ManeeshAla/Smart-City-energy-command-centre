@@ -42,7 +42,9 @@ CSV ingestion ─► Batch layer (Parquet + aggregates)
    python -m pip install -r requirements.txt
    ```
 
-2. Build the data and models, then launch the dashboard:
+2. Build the models, then launch the dashboard. The hourly dataset
+   (`smart_city_energy_timeseries.csv`) is already included; `generate_data.py`
+   rebuilds the identical file from `smart_city_dataset.csv` if you ever need it:
 
    ```
    python generate_data.py
